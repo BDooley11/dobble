@@ -12,6 +12,6 @@ setup(name="dobble",
       packages=['dobble'],
       install_requires=requirements,
       entry_points={
-        'console_scripts':['run dobble=dobble.main:main']
+        'console_scripts':['run_dobble=dobble.main:main']
         }
       )
